@@ -1,0 +1,49 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+body{
+	background-color: #ADD8E6;
+}
+.frm{
+	background-color: #FFD700;
+}
+label{
+	/*display: block;*/
+	font-family: worksans-bold;
+}
+th{
+	font-family: worksans-bold;
+}
+td,input{
+	font-family: worksans-regular;
+}
+button{
+	float: right;
+}
+textarea{
+	resize: none;
+	display: block;
+}
+@font-face{
+	font-family: worksans-bold;
+	src: url("../fonts/worksans-bold-demo.html");
+	src: url("../fonts/worksans-bold-webfont.eot");
+	src: url("../fonts/worksans-bold-webfont.ttf");
+	src: url("../fonts/worksans-bold-webfont.woff");
+	src: url("../fonts/worksans-bold-webfont.woff2");
+}
+@font-face{
+	font-family: worksans-regular;
+	src: url("../fonts/worksans-regular-demo.html");
+	src: url("../fonts/worksans-regular-webfont.eot");
+	src: url("../fonts/worksans-regular-webfont.ttf");
+	src: url("../fonts/worksans-regular-webfont.woff");
+	src: url("../fonts/worksans-regular-webfont.woff2");
+}
+.btnimg{
+	height: 10px;
+	width: 15px;
+	margin-left: 2px;
+}
